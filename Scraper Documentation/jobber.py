@@ -1,21 +1,27 @@
+''' 
+Web Scraper for Naukri.com
+Refer documentation for setup
+'''
+
 from selenium import webdriver
 import pandas as pd
 from bs4 import BeautifulSoup
 from csv import DictWriter
 from time import sleep
 
-# Adding driver
+# Adding Chrome driver for Selenium automation
 driver = webdriver.Chrome("./chromedriver")
 # Pagination Initilization
 BASE_URL = "https://www.naukri.com/full-stack-jobs"
 
+# Scraper function
 def scrape_jobs():
 	# List for storing scrapped data
 	job_list = []
 	# Hard-coded pagination (for 10 pages)
 	for i in range(1,11):
 		print("Now scrapping " + BASE_URL + "-" + str(i) + "...")
-		# Getting the page
+		# Getting new web pages for parsing
 		driver.get(BASE_URL + "-" + str(i))
 		# Individual jobs present in class='jobTuple'
 		all_jobs = driver.find_elements_by_class_name('jobTuple')
@@ -84,9 +90,11 @@ def scrape_jobs():
 		''' For dynamic pagination
 		next_btn = driver.find_element_by_css_selector('a.fright')
 		url = next_btn.get_attribute('href') if next_btn else None '''
-		sleep(6)
 
+		sleep(6)	# For controlled scraping
+	
 	return job_list
+
 
 # Function to write into csv
 def write_jobs_to_csv(jobs):
@@ -99,4 +107,3 @@ def write_jobs_to_csv(jobs):
 
 jobs = scrape_jobs()
 write_jobs_to_csv(jobs)
-
