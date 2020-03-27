@@ -29,8 +29,6 @@ my_map = {'Not disclosed':780000}
 df['salary_pp']= df['salary_pp'].map(lambda s: my_map.get(s) if s in my_map else s)
 
 #Dealing with multivalued attr in 'location'
-
-
 # calculate lengths of splits
 lens = df['location'].str.split(',').map(len)
 
@@ -57,8 +55,17 @@ new_df['location'] = new_df['location'].str.replace(r"\(.*\)","")
 new_df['location'] = new_df['location'].str.replace(r" ","")
 new_df['location'] = new_df['location'].str.replace(r"DelhiNCR","Delhi")
 new_df['location'] = new_df['location'].str.replace(r"NaviMumbai","Mumbai")
-#res['location'] = res['location'].str.replace(r"BhubaneswarBhubaneswar","Bhubaneswar")
+new_df['location'] = new_df['location'].str.replace(r"BhubaneswarBhubaneswar","Bhubaneswar")
+new_df['location'] = new_df['location'].str.replace(r"MohaliPunjab","Mohali")
+new_df['location'] = new_df['location'].str.replace(r"GurgaonHaryana","Gurgaon")
 
+
+new_df.drop(['experience'] , axis='columns', inplace=True)
+
+new_df.to_csv('DS_NewData.csv',index=False)
+
+
+#works if there is one column dependent on the modified one
 """# Step 1
 # We start with creating a new dataframe from the series with title as the index
 new_df = pd.DataFrame(df.location.str.split(',').tolist(), index=df.title).stack()
@@ -69,7 +76,6 @@ new_df = pd.DataFrame(df.location.str.split(',').tolist(), index=df.title).stack
 new_df = new_df.reset_index([(0, 'title'),(1, 'company'),(2, 'salary'),(3,'experience'),(4,'description')
                             (5, 'keywords'),(6, 'trending'),(7, 'sponsored')
                             (8, 'salary_pp'),(9, 'experience_pp(in yrs)')])
-
 # Step 3
 # The final step is to set the column names as we want them
 new_df.columns = ['title', 'location_pp']
