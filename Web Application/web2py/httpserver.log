@@ -1,0 +1,129 @@
+127.0.0.1, 2020-04-11 11:00:04, GET, /, HTTP/1.1, 303, 0.001995
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/default/index, HTTP/1.1, 200, 1.235678
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/css/bootstrap.min.css, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/js/jquery.js, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/css/web2py-bootstrap4.css, HTTP/1.1, 200, 0.004986
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/js/calendar.js, HTTP/1.1, 200, 0.005984
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/js/web2py.js, HTTP/1.1, 200, 0.005984
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/css/calendar.css, HTTP/1.1, 200, 0.004986
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/js/modernizr-2.8.3.min.js, HTTP/1.1, 200, 0.005979
+127.0.0.1, 2020-04-11 11:00:05, GET, /welcome/static/js/web2py-bootstrap4.js, HTTP/1.1, 200, 0.000997
+7
+127.0.0.1, 2020-04-11 11:00:06, GET, /welcome/static/images/favicon.png, HTTP/1.1, 200, 0.001003
+127.0.0.1, 2020-04-11 11:00:06, GET, /welcome/static/images/background.jpg, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/default/index, HTTP/1.1, 200, 0.252791
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/js/jquery.js, HTTP/1.1, 200, 0.003990
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/plugin_multiselect/start.js, HTTP/1.1, 200, 0.001983
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/plugin_statebutton/js/bootstrap-switch.js, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/js/calendar.js, HTTP/1.1, 200, 0.003990
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/plugin_multiselect/jquery.multi-select.js, HTTP/1.1, 200, 0.003990
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/css/bootstrap_essentials.css, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/plugin_multiselect/multi-select.css, HTTP/1.1, 200, 0.001995
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/css/bootstrap-responsive.min.css, HTTP/1.1, 200, 0.002010
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/css/calendar.css, HTTP/1.1, 200, 0.003989
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/css/bootstrap.min.css, HTTP/1.1, 200, 0.004994
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/js/bootstrap.min.js, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/js/web2py.js, HTTP/1.1, 200, 0.017952
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/plugin_statebutton/css/bootstrap-switch.css, HTTP/1.1, 200, 0.015957
+127.0.0.1, 2020-04-11 11:01:03, GET, /admin/static/_2.19.1/images/questions.png, HTTP/1.1, 200, 0.001989
+127.0.0.1, 2020-04-11 11:01:03, GET, /favicon.ico, HTTP/1.1, 400, 0.000000
+127.0.0.1, 2020-04-11 11:01:09, POST, /admin/default/index, HTTP/1.1, 303, 0.029442
+127.0.0.1, 2020-04-11 11:01:09, GET, /admin/default/site, HTTP/1.1, 200, 0.180311
+127.0.0.1, 2020-04-11 11:01:09, GET, /admin/static/_2.19.1/images/folder_locked.png, HTTP/1.1, 200, 0.001995
+127.0.0.1, 2020-04-11 11:01:09, GET, /admin/static/_2.19.1/images/folder.png, HTTP/1.1, 200, 0.002992
+127.0.0.1, 2020-04-11 11:01:09, GET, /admin/static/_2.19.1/images/glyphicons-halflings-white.png, HTTP/1.1, 200, 0.001995
+127.0.0.1, 2020-04-11 11:01:10, POST, /admin/default/check_version, HTTP/1.1, 200, 0.593203
+127.0.0.1, 2020-04-11 11:01:35, POST, /admin/default/site, HTTP/1.1, 303, 0.245838
+127.0.0.1, 2020-04-11 11:01:35, GET, /admin/default/design/jobs, HTTP/1.1, 200, 0.453276
+127.0.0.1, 2020-04-11 11:01:35, GET, /admin/static/_2.19.1/images/search.png, HTTP/1.1, 200, 0.012965
+127.0.0.1, 2020-04-11 11:01:35, GET, /admin/static/_2.19.1/images/delete_icon.png, HTTP/1.1, 200, 0.012965
+127.0.0.1, 2020-04-11 11:01:35, GET, /admin/static/_2.19.1/images/test_icon.png, HTTP/1.1, 200, 0.016955
+127.0.0.1, 2020-04-11 11:01:35, GET, /admin/static/_2.19.1/images/help.png, HTTP/1.1, 200, 0.021941
+127.0.0.1, 2020-04-11 11:10:27, GET, /movies/default/call/json/myapi, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 11:11:25, GET, /jobs/default/call/json/myapi, HTTP/1.1, 200, 1.028356
+127.0.0.1, 2020-04-11 12:07:57, GET, /movies/static/test.html, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:07:57, GET, /favicon.ico, HTTP/1.1, 400, 0.000997
+127.0.0.1, 2020-04-11 12:08:05, GET, /jobs/static/test.html, HTTP/1.1, 404, 0.000998
+127.0.0.1, 2020-04-11 12:08:54, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:08:54, GET, /jobs/static/Recommendation Tester_files/jquery-3.js, HTTP/1.1, 404, 0.000996
+127.0.0.1, 2020-04-11 12:08:54, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000998
+127.0.0.1, 2020-04-11 12:08:54, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:09:12, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.000998
+127.0.0.1, 2020-04-11 12:09:12, GET, /jobs/static/Recommendation Tester_files/jquery-3.js, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:09:12, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:09:12, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:09:12, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:09:12, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000975
+127.0.0.1, 2020-04-11 12:09:12, GET, /favicon.ico, HTTP/1.1, 400, 0.000998
+127.0.0.1, 2020-04-11 12:09:13, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000990
+127.0.0.1, 2020-04-11 12:09:13, GET, /jobs/static/Recommendation Tester_files/jquery-3.js, HTTP/1.1, 404, 0.001992
+127.0.0.1, 2020-04-11 12:09:13, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:09:13, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:09:13, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:09:16, GET, /jobs/static/Recommendation Tester_files/jquery-3.js, HTTP/1.1, 404, 0.000998
+127.0.0.1, 2020-04-11 12:09:16, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:09:16, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000996
+127.0.0.1, 2020-04-11 12:09:16, GET, /jobs/static/Recommendation Tester_files/axios.js, HTTP/1.1, 404, 0.000995
+127.0.0.1, 2020-04-11 12:09:16, GET, /jobs/static/Recommendation Tester_files/swiggy-card-logo.png, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:10:02, GET, /movies/static/test.html, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:10:08, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.012996
+127.0.0.1, 2020-04-11 12:10:08, GET, /jobs/static/test_files/swiggy-card-logo.png, HTTP/1.1, 200, 0.001994
+127.0.0.1, 2020-04-11 12:10:08, GET, /jobs/static/test_files/axios.js, HTTP/1.1, 200, 0.033940
+127.0.0.1, 2020-04-11 12:10:08, GET, /jobs/static/test_files/jquery-3.js, HTTP/1.1, 200, 0.117685
+127.0.0.1, 2020-04-11 12:10:08, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.001989
+127.0.0.1, 2020-04-11 12:10:14, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2020-04-11 12:10:14, GET, /jobs/static/test_files/jquery-3.js, HTTP/1.1, 304, 0.001994
+127.0.0.1, 2020-04-11 12:10:14, GET, /jobs/static/test_files/axios.js, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2020-04-11 12:10:14, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.001994
+127.0.0.1, 2020-04-11 12:10:14, GET, /jobs/static/test_files/swiggy-card-logo.png, HTTP/1.1, 304, 0.000998
+127.0.0.1, 2020-04-11 12:10:16, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.001030
+127.0.0.1, 2020-04-11 12:10:16, GET, /jobs/static/test_files/jquery-3.js, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2020-04-11 12:10:16, GET, /jobs/static/test_files/axios.js, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2020-04-11 12:10:16, GET, /jobs/static/test_files/swiggy-card-logo.png, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2020-04-11 12:10:16, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.000998
+127.0.0.1, 2020-04-11 12:10:18, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.000836
+127.0.0.1, 2020-04-11 12:10:18, GET, /jobs/static/test_files/jquery-3.js, HTTP/1.1, 304, 0.000998
+127.0.0.1, 2020-04-11 12:10:18, GET, /jobs/static/test_files/axios.js, HTTP/1.1, 304, 0.001994
+127.0.0.1, 2020-04-11 12:10:18, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:10:18, GET, /jobs/static/test_files/swiggy-card-logo.png, HTTP/1.1, 304, 0.000998
+127.0.0.1, 2020-04-11 12:10:27, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.001024
+127.0.0.1, 2020-04-11 12:10:27, GET, /jobs/static/test_files/jquery-3.js, HTTP/1.1, 304, 0.000984
+127.0.0.1, 2020-04-11 12:10:27, GET, /jobs/static/test_files/axios.js, HTTP/1.1, 304, 0.000994
+127.0.0.1, 2020-04-11 12:10:27, GET, /jobs/static/test_files/swiggy-card-logo.png, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2020-04-11 12:10:27, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.001988
+127.0.0.1, 2020-04-11 12:12:39, GET, /movies/static/test.html, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:12:39, GET, /favicon.ico, HTTP/1.1, 400, 0.000997
+127.0.0.1, 2020-04-11 12:12:44, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:12:44, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.002992
+127.0.0.1, 2020-04-11 12:12:44, GET, /favicon.ico, HTTP/1.1, 400, 0.000000
+127.0.0.1, 2020-04-11 12:12:48, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.001000
+127.0.0.1, 2020-04-11 12:12:49, POST, /movies/default/call/json/get_recommendations, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:12:49, GET, /favicon.ico, HTTP/1.1, 400, 0.000000
+127.0.0.1, 2020-04-11 12:14:12, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.001027
+127.0.0.1, 2020-04-11 12:14:12, POST, /jobs/default/call/json/get_recommendations, HTTP/1.1, 500, 0.292109
+127.0.0.1, 2020-04-11 12:14:16, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2020-04-11 12:14:16, POST, /jobs/default/call/json/get_recommendations, HTTP/1.1, 500, 0.078789
+127.0.0.1, 2020-04-11 12:15:22, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.001028
+127.0.0.1, 2020-04-11 12:15:23, POST, /jobs/controller/default/call/json/get_recommendations, HTTP/1.1, 404, 0.016955
+127.0.0.1, 2020-04-11 12:15:26, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2020-04-11 12:49:35, GET, /movies/static/test.html, HTTP/1.1, 404, 0.000000
+127.0.0.1, 2020-04-11 12:49:35, GET, /favicon.ico, HTTP/1.1, 400, 0.000000
+127.0.0.1, 2020-04-11 12:49:42, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:49:42, POST, /jobs/controller/default/call/json/get_recommendations, HTTP/1.1, 404, 0.015957
+127.0.0.1, 2020-04-11 12:50:02, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:50:03, POST, /jobs/default/call/json/get_recommendations, HTTP/1.1, 500, 0.068815
+127.0.0.1, 2020-04-11 12:50:04, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.000998
+127.0.0.1, 2020-04-11 12:50:05, POST, /jobs/default/call/json/get_recommendations, HTTP/1.1, 500, 0.074799
+127.0.0.1, 2020-04-11 12:51:50, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:51:50, POST, /jobs/controllers/default/call/json/get_recommendations, HTTP/1.1, 404, 0.019947
+127.0.0.1, 2020-04-11 12:52:03, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:52:03, POST, /jobs/controllers/default.py/call/json/get_recommendations, HTTP/1.1, 404, 0.017952
+127.0.0.1, 2020-04-11 12:52:05, GET, /jobs/static/test.html, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2020-04-11 12:52:05, POST, /jobs/controllers/default.py/call/json/get_recommendations, HTTP/1.1, 404, 0.019947
+127.0.0.1, 2020-04-11 12:52:54, GET, /movies/static/test.html, HTTP/1.1, 404, 0.000997
+127.0.0.1, 2020-04-11 12:52:54, GET, /favicon.ico, HTTP/1.1, 400, 0.000995
+127.0.0.1, 2020-04-11 12:53:04, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2020-04-11 12:53:04, POST, /jobs/default/call/json/get_recommendations, HTTP/1.1, 500, 0.062830
+127.0.0.1, 2020-04-11 12:53:04, GET, /favicon.ico, HTTP/1.1, 400, 0.000997
+127.0.0.1, 2020-04-11 12:54:29, GET, /jobs/static/test.html, HTTP/1.1, 200, 0.001029
+127.0.0.1, 2020-04-11 12:54:38, POST, /jobs/default/call/json/get_recommendations, HTTP/1.1, 200, 8.941468
